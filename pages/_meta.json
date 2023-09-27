@@ -1,9 +1,13 @@
 {
   "index": "Home",
-  "another": "Another Page",
   "core-units": "Core Units",
+  "esp": "Core Project (ESP)",
   "about": {
     "title": "About",
+    "type": "page"
+  },
+  "porting-to-obsidian": {
+    "title": "Porting to Obsidian",
     "type": "page"
   },
   "contact": {
