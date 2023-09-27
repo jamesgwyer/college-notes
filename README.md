@@ -1,23 +1,16 @@
-# Nextra Docs Template 
+# My college notes for "T-Level Technical Qualification in Digital Production, Design and Development"
+I made this site to try and gather as many resources for this course as possible in one place because the exam board give out little to no helpful resources.
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+(and also because [this spec document from Pearson](https://qualifications.pearson.com/content/dam/pdf/TLevels/digital/2020/specification-and-sample-assessments/t-level-tq-in-digital-production-design-and-development-spec1.pdf) is really big and boring)
 
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
+### To-do list
+- [ ] add pages for "Occupational specialism" section (the 67 hour exam)
+- [ ] find past papers to add to the site
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
+### Forking this project
+This site uses a template for creating documentation with [Nextra](https://nextra.site).
 
-## Quick Start
-
-Click the button to clone this repository and deploy it on Vercel:
-
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
-
-## Local Development
-
+#### After downloading the repo locally
 First, run `pnpm i` to install the dependencies.
 
 Then, run `pnpm dev` to start the development server and visit localhost:3000.
-
-## License
-
-This project is licensed under the MIT License.
