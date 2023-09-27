@@ -1,15 +1,15 @@
 {
-  "index": "Introduction",
+  "index": "Home",
   "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "core-units": "Core Units",
   "about": {
     "title": "About",
     "type": "page"
   },
   "contact": {
-    "title": "Contact ↗",
+    "title": "↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://www.instagram.com/jamesgwyer",
     "newWindow": true
   }
 }
