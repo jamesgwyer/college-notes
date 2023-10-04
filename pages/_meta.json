@@ -2,8 +2,9 @@
   "index": "Home",
   "core-units": "Core Units",
   "esp": "Core Project (ESP)",
-  "about": {
-    "title": "About",
+  "osc": "Occupational Specialist content",
+  "spec": {
+    "title": "Spec Summary",
     "type": "page"
   },
   "porting-to-obsidian": {
