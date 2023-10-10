@@ -4,7 +4,7 @@ I made this site to try and gather as many resources for this course as possible
 (and also because [this spec document from Pearson](https://qualifications.pearson.com/content/dam/pdf/TLevels/digital/2020/specification-and-sample-assessments/t-level-tq-in-digital-production-design-and-development-spec1.pdf) is really big and boring)
 
 ### To-do list
-- [ ] add pages for "Occupational specialism" section (the 67 hour exam)
+- [X] add pages for "Occupational specialism" section (the 67 hour exam)
 - [ ] find past papers to add to the site
 - [X] for some reason osc pages won't show up on the side menu? but are still visible when you go to the url
 
