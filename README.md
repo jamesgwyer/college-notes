@@ -6,7 +6,7 @@ I made this site to try and gather as many resources for this course as possible
 ### To-do list
 - [ ] add pages for "Occupational specialism" section (the 67 hour exam)
 - [ ] find past papers to add to the site
-- [ ] for some reason osc pages won't show up on the side menu? but are still visible when you go to the url
+- [X] for some reason osc pages won't show up on the side menu? but are still visible when you go to the url
 
 ### Forking this project
 This site uses a template for creating documentation with [Nextra](https://nextra.site).
