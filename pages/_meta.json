@@ -7,6 +7,14 @@
     "title": "Spec Summary",
     "type": "page"
   },
+  "textbook": {
+    "title": "The Textbook",
+    "type": "page"
+  },
+  "work-experience": {
+    "title": "Work Experience",
+    "type": "page"
+  },
   "porting-to-obsidian": {
     "title": "Porting to Obsidian",
     "type": "page"
