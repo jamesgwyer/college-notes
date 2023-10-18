@@ -1,21 +1,39 @@
 # Task 2 - Identifying and fixing defects in an existing code
 
-### Use of testing to identify defects
-1. Assess the given code against requirements.
-2. Carry out testing to identify issues in given code.
-3. Perform any remedial actions required, justifying any decision made when fixing the defect.
+The focus of Task 2 is to identify and fix defects in existing code. At the start of the exam you are given a brief aswell as other material needed like the Non-working code inside of a .txt file (usually on a USB stick). For this task, you need to test and fix the code you're given which relates to the business in question. You're also given a test-logging template on this USB too for you to describe any errors you find and how you fixed them.
 
-### Documenting the testing process
-Provide annotated evidence of testing, include:
-- identifying tests to be carried out
-- describing the purpose of the identified test
-- identifying test data to be used (valid, valid extreme, invalid, invalid extreme, erroneous)
-- describing the expected results
-- describing the actual results of the tests performed
-- comparing the actual results to the expected results
-- describing any further actions that are required
-- refining the system as required
+The two main requirements for this task are:
+| Requirements | Marks | "Competencies covered" |
+| :----------- | :---- | :--------------------- |
+| using testing to identify defects with the non-working code and documenting the testing process including any possible remedial actions to be taken | 12 | E1, E2, M10, D3 |
+| producing a working solution based on the results of your testing | 9 | M4, M5, M7 |
 
-### The solution
-1. Correct errors in code add and/or remove code to ensure that the given code is functional and meets the given requirements.
-2. Follow appropriate programming conventions when fixing the code to ensure that it makes use of precise logic and programming structures throughout, so that the program produces consistently correct outcomes.
+Just like Task 1, there are 3 hours allocated to Task 2 which the textbook recommends you split in half to work on each requirement.
+
+## Use of testing to identify defects, and documenting the testing process
+After reading through the brief, you will need to analyse the non-working code and create a test plan to identify the issues that are stopping the code from working properly.
+
+When you are testing to identify defects you will need to:
+- assess the given code against requirements
+- carry out testing to identify issues in the given code
+- perform any remedial actions required, justifying any decision made when fixing the defect
+
+The test plan you create, use and amend should cover:
+- identify the tests to be carried out
+- describe the purpose of the identified test
+- identify the test data to be used including valid, valid extreme, invalid, invalid extreme, and erroneous
+- describe the expected results
+- describe the actual results of the tests performed
+- compare the actual results of testing with the actual results
+- describe any further actions that are required
+
+"At this stage it is important that you also test the code to make sure it is robust and performs as required. One way of doing this is to do a dry run with values that should produce an error message and that this error message only appears when incorrect values have been input."
+
+On the page "[ESP Exam June 2023](/esp/june-2023)" I have linked a good template for logging tests you do and how you fixed them.
+
+## The solution
+After this, you will need to make the changes to the code and confirm the changes you have made make the code work as intended.
+
+Aswell as looking for errors that break the code/stop you from continuing, you should also look for formatting errors like indentation errors. Other examples could be:
+- if the code requires a date output, checks should be made that the defined format is that of the UK date format - dd/mm/yyyy
+- any currency outputs are in £ with 2 decimal places (like £12.99)
