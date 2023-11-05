@@ -6,7 +6,7 @@ I made this site to try and gather as many resources for this course as possible
 ### To-do list
 - [X] add pages for "Occupational specialism" section (the 67 hour exam)
 - [ ] find past papers to add to the site
-- [X] for some reason osc pages won't show up on the side menu? but are still visible when you go to the url
+- [ ] menu doesn't update on deployment after pushing (probably a Vercel issue)
 - [ ] find a way to change the <title> tag so it doesn't say "- Nextra" on every page
 
 ### Forking this project
