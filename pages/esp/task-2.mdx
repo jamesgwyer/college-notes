@@ -29,11 +29,46 @@ The test plan you create, use and amend should cover:
 
 "At this stage it is important that you also test the code to make sure it is robust and performs as required. One way of doing this is to do a dry run with values that should produce an error message and that this error message only appears when incorrect values have been input."
 
-On the page "[ESP Exam June 2023](/esp/june-2023)" I have linked a good template for logging tests you do and how you fixed them.
+On the page "[ESP Exam June 2023](/esp/june-2023)" I have linked a good template for logging tests you do and how you fixed them. It is also available further down this page.
+
+## What you should be looking for
+This is a list of typical errors that will more than likely come up in the Non-working code file:
+- Missing delimiter (,) *e.g. comma between two list entries*
+- Something like an array, function, or variable created/referred to, but then not seen again
+- Missing colon (:) *e.g. in the condition of a for loop*
+- Logic error *e.g. true when should be false, or checking for == rather than !=*
+- Index error *e.g. starting checking an index on 1 rather than 0*
+- Wrong item checked for *e.g. checking the length of a variable, when for that test, it should be a different variable being checked*
+- Calling the wrong function, or calling a function incorrectly *e.g. my_function, when it should be **my_function()***
+- Extra/missing bracket
+- Wrong method called *e.g. time.now() rather than **date**time.now()*
+- Calculation error *e.g. wrong total being calculated, wrong figure used in calculation*
+- Wrong assignment *e.g. = rather than ==*
+- Misspelling *e.g. variable or function name misspelled*
+- Casting as integer when looking to print as a string
+- Data wrongly formatted *e.g. into a single line rather than multiple lines*
+- Not converting inputted numbers into integers
+
+## Testing methods
+These are some common ways to test how robust/good at error handling the program is. Most suggestions include submitting things into inputs that should come up with an error.
+- Inputting negative numbers
+- Inputting extremely large numbers, very small numbers (boundary testing)
+- Text into numeric inputs
+- Numeric inputs in text inputs
+- Different date formats *e.g. DD/MM/YYYY, MM/DD/YYYY, DD/MM/YY*
+- Incorrect input *e.g. item not on list of options*
+- Manually check calculations that the program outputs
+- Check menu options return the right index value *e.g. selecting 1 will return index 0*
+- Inputting menu option values outside of the selection offered *e.g. 7 when given options 1-6*
+- Checking formatting *e.g. spacing, line breaks (\n), capitalisation etc*
+- Testing new items are added to a list correctly
+
+## What your test log will look like and how to use it
+I can't actually remember if this is correct, but I'm fairly sure you're actually given this test log in the exam, however if you're not then this is a good example to follow.
+
+| Description of test | Test data to be used (if required) | Expected outcome | Actual outcome | Comments and intended actions |
+| :------------------ | :--------------------------------- | :--------------- | :------------- | :---------------------------- |
+| This is where you would state where the code you're testing is (line, variable name, etc) | If you're testing a variable or another function that already contains data (like a dictionary), this is where you would enter a variable name or what the data is. | Here you would describe what is *supposed* to happen when you run the program. | This is where you describe what *actually* happens when you run the program. | And finally this is where you explain how you fixed the error and what the problem was. |
 
 ## The solution
 After this, you will need to make the changes to the code and confirm the changes you have made make the code work as intended.
-
-Aswell as looking for errors that break the code/stop you from continuing, you should also look for formatting errors like indentation errors. Other examples could be:
-- if the code requires a date output, checks should be made that the defined format is that of the UK date format - dd/mm/yyyy
-- any currency outputs are in £ with 2 decimal places (like £12.99)
