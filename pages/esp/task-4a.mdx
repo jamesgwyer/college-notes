@@ -2,7 +2,7 @@
 
 Task 4a will require you to develop a solution. The requirements of the additional functionality to the solution you designed and manipulated in [Task 3](/esp/task-3) will be given to you. The brief for this exam will also typically provide you with extra system and user requirements. Whilst coding it is worth checking back to these requirements to make sure that you have not deviated away from them. According to the textbook, you will usually be provided with a data file which can be used to test your solution.
 
-Unlike the first three exams, this one is 4 hours long.
+Unlike the first three exams, this one is 4 hours long and the longest in this set.
 
 | Requirements | Marks | "Competencies covered" |
 | :----------- | :---- | :--------------------- |
@@ -29,7 +29,7 @@ General things:
 - Look through the code you are given – there is probably code here you can use e.g. importing, reading a CSV etc, check how they have formatted outputs and do similar in your own work
 
 Once you've started coding:
-- One thing our teacher has suggested is that you should "start each part of the work in a new file", I'm guessing by this he means that if you're starting work on a new function you should create a new file for it so that it is easier to catch errors and determine where they are much quicker. However, if you do you this method you need to remember to **save and submit every file you created**.
+- One thing our teacher has suggested is that you should "start each part of the work in a new file", I'm guessing by this he means that if you're starting work on a new function or something similar you should create a new file for it so that it is easier to catch errors and determine where they are much quicker. However, if you do you this method you need to remember to **save and submit every file you created**.
 - **# Comment everything** - commenting helps the examiner to figure out what you're doing and also what your intentions were if a certain bit of code doesn't work. By doing this you're essentially having a conversation with the examiner, helping them through your program.
 - To check things, print() as you go along, when happy, comment out and leave for examiner to see.
 - **If you get a Key Error, check date formatting e.g., change 2022 to 22 or vice versa.**
@@ -54,6 +54,7 @@ import matplotlib.pyplot as plt # matplotlib referred to as plt
 import numpy as np # numpy referred to as np
 ```
 
+### Code snippets
 Reading a datafile using pandas:
 ```python
 df = pd.read_csv('Task4a_data_November-22.csv')
@@ -75,6 +76,56 @@ dub_df = df[df["From"] == "DUB"] # extract from "DUB" only from the dataframe an
 To select against multiple columns and criteria:
 ```python
 twoOnly = df[(df["COLUMN"] == "CRITERIA") & (df["COLUMN2"] == "CRITERIA2")
+```
+
+Creating a virtual column (not actually in the dataframe) from a sum of the other columns:
+```python
+df["Total Passengers"] = df["01/04/2022"] + df["02/04/2022"] + df["03/04/2022"] + df["04/04/2022"]
+# creates 'virtual' column called "Total Passengers" which is the sum of each row left to right
+# to confirm this we can print "Total Passengers" column ->
+
+print(df["Total Passengers"]) # print to check this works, then comment out
+```
+
+Store all data based on a specific criteria from a specific column heading into a variable:
+```python
+dub_df = df[df["From"] == "DUB"] # extract From DUB only from df, store in dub_df
+
+print(dub_df) # print to check this works, then comment out
+```
+
+Sum up a total:
+```python
+dub_df_passenger_count = dub_df["Total Passengers"].sum()
+# print(dub_df_passenger_count)
+
+print ("Total for Dublin = ", dub_df_passenger_count)
+```
+
+---
+
+**These next code snippets are relating to a different exam from June 2022** about a housing company called Newhaven as they were the only examples I could find. You can find the details on this section of that exam below:
+- [Brief](/esp/june-2022/Core%20Employer%20Set%20Project%20-%20Task4A%20-%20Summer%202022.pdf)
+- [Data](/esp/june-2022/Task4a_Data_Summer-2022.csv)
+- [Code.py](/esp/june-2022/Task4a_Summer-2022_dashboard.py)
+- [Code.txt](/esp/june-2022/Task4a_Summer-2022_dashboard.txt)
+
+Creating a bar graph using X and Y labels including labels:
+```python
+x = np.array(["Bungalows", "Semis", "Detached"])
+y = np.array([bung_df_increase_count , semi_df_increase_count, det_df_increase_count])
+plt.title("Sum of % Increase")
+plt.xlabel("Property Type")
+plt.ylabel("% Increase")
+plt.grid()
+plt.bar(x,y)
+plt.show()
+```
+
+Working out an average of a range of figures, **using mean()** rather than sum():
+```python
+lon_df_av_increase = lon_df["Total % Increase"].mean()
+# print(lon_df_av_increase)
 ```
 
 ---
