@@ -17,7 +17,67 @@ When creating your coded solution, you must:
 - consider the security requirements and use secure coding principles and practices to mitigate against potential threats and vulnerabilities
 - ensure your code is maintainable, readable and functional, and follows accepted programming conventions
 
-During the exam, you will not be required to produce formal evidence that you've tested your code unlike in Task 2. However to ensure that the code meets the specified system and user requirements you should probably test the code as you write it.
+During the exam, **you will not be required to produce formal evidence that you've tested your code** unlike in Task 2. However to ensure that the code meets the specified system and user requirements you should probably test the code as you write it.
+
+---
+
+## Things you should remember
+General things:
+- Make sure you only open the folder you are working on in VS Code Explorer
+- Read the instructions very carefully, do not start work until you know exactly what is required
+- Read the data file carefully, make sure you can read all column headings, and that you know what the data represents
+- Look through the code you are given – there is probably code here you can use e.g. importing, reading a CSV etc, check how they have formatted outputs and do similar in your own work
+
+Once you've started coding:
+- One thing our teacher has suggested is that you should "start each part of the work in a new file", I'm guessing by this he means that if you're starting work on a new function you should create a new file for it so that it is easier to catch errors and determine where they are much quicker. However, if you do you this method you need to remember to **save and submit every file you created**.
+- **# Comment everything** - commenting helps the examiner to figure out what you're doing and also what your intentions were if a certain bit of code doesn't work. By doing this you're essentially having a conversation with the examiner, helping them through your program.
+- To check things, print() as you go along, when happy, comment out and leave for examiner to see.
+- **If you get a Key Error, check date formatting e.g., change 2022 to 22 or vice versa.**
+- When outputting information, use similar formatting to the code you have been given – **don’t forget you get marked on presentation**.
+- If you cannot do exactly what you have been asked to do – well, what can you do?  At least do something, even if it is not exactly what they asked for as this will evidence understanding for which you should get some marks. For example, if you cannot plot data using MatPlotLib, print() instead, using comments to explain what you’ve done.
+
+---
+
+## Elanp Air - November 2022
+For this section I'm going to be referring to a Task 4a example from November 2022 about "Elanp Air". The data file given in this exam is about departures and arrivals to and from different airports. You can view all files for this below:
+- [Brief](/esp/november-2022/Core%20Employer%20Set%20Project%20-Task4a%20-%20November%2022.pdf)
+- [Data](/esp/november-2022/Task4a_data_November-22.csv)
+- [Code.py](/esp/november-2022/Task4a_Elanp_dashboard_November-22.py)
+- [Code.txt](/esp/november-2022/Task4a_Elanp_dashboard_November-22.txt)
+
+### Importing libraries
+For this exam we needed 3 libraries, [Pandas](), [Matplotlib](), and [Numpy]().
+
+```python
+import pandas as pd # pandas referred to as pd throughout program
+import matplotlib.pyplot as plt # matplotlib referred to as plt
+import numpy as np # numpy referred to as np
+```
+
+Reading a datafile using pandas:
+```python
+df = pd.read_csv('Task4a_data_November-22.csv')
+# accesses all data inside the csv and stores it as a variable called "df" (dataframe)
+
+# if you want to read an Excel file, use:
+df = pd.read_excel('Task4a_data_November-22.xlsx')
+```
+
+Extracting specific data from the dataframe:
+```python
+NAME_df = df[df["COLUMN NAME"] == "CRITERIA"]
+```
+
+```python
+dub_df = df[df["From"] == "DUB"] # extract from "DUB" only from the dataframe and store the data in a variable called "dub_df"
+```
+
+To select against multiple columns and criteria:
+```python
+twoOnly = df[(df["COLUMN"] == "CRITERIA") & (df["COLUMN2"] == "CRITERIA2")
+```
+
+---
 
 Your final code must:
 - be well-structured including the use of modules with a defined structure (for example, the use of procedures, funtions, or classes)
