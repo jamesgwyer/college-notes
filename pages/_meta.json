@@ -3,6 +3,10 @@
   "core-units": "Core Units",
   "esp": "Core Project (ESP)",
   "osc": "Occupational Specialist content",
+  "resources": {
+    "title": "Other Resources",
+    "type": "page"
+  },
   "spec": {
     "title": "Spec Summary",
     "type": "page"

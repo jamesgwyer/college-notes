@@ -10,6 +10,11 @@ const config: DocsThemeConfig = {
   footer: {
     text: '@jamesgwyer',
   },
+  useNextSeoProps() {
+    return {
+      titleTemplate: '%s – James\' College Notes'
+    }
+  },
 }
 
 export default config
