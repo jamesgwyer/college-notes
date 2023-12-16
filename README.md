@@ -1,3 +1,5 @@
+> this repo will be archived once I finish college.
+
 # My college notes for "T-Level Technical Qualification in Digital Production, Design and Development"
 I made this site to try and gather as many resources for this course as possible in one place because the exam board give out little to no helpful resources.
 
