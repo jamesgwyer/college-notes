@@ -10,9 +10,10 @@ I made this site to try and gather as many resources for this course as possible
 - [X] find past papers to add to the site
 - [ ] menu doesn't update on deployment after pushing (probably a Vercel issue)
 - [X] find a way to change the <title> tag so it doesn't say "- Nextra" on every page
+- [ ] no idea how to add a favicon to this lol
 
 ### Forking this project
-This site uses a template for creating documentation with [Nextra](https://nextra.site).
+This site uses a template for creating documentation with [Nextra](https://nextra.site). So, instead of forking this repo, you can click the "Use this template" option on [shuding/nextra-docs-template](https://github.com/shuding/nextra-docs-template) to create your own website with the theme.
 
 #### After downloading the repo locally
 First, run `pnpm i` to install the dependencies.
