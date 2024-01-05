@@ -8,7 +8,7 @@ I made this site to try and gather as many resources for this course as possible
 ### To-do list
 - [X] add pages for "Occupational specialism" section (the 67 hour exam)
 - [X] find past papers to add to the site
-- [ ] menu doesn't update on deployment after pushing (probably a Vercel issue)
+- [X] menu doesn't update on deployment after pushing (probably a Vercel issue) seems to have fixed itself??
 - [X] find a way to change the <title> tag so it doesn't say "- Nextra" on every page
 - [X] no idea how to add a favicon to this lol
 - [ ] COMPLETE RE-ORGANISATION (half-finished)
