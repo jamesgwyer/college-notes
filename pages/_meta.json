@@ -2,14 +2,13 @@
   "index": "Home",
   "work-experience": "Work Experience",
   "past-papers": "Past Papers",
-  "core-units": "Core Units",
-  "esp": "Core Project (ESP)",
-  "osc": "Occupational Specialist content",
+  "summaries": "Content Summaries",
+  "spec": "Spec (Ctrl C + V)",
   "resources": {
-    "title": "Other Resources",
+    "title": "Resources",
     "type": "page"
   },
-  "spec": {
+  "spec-summary": {
     "title": "Spec Summary",
     "type": "page"
   },
