@@ -22,3 +22,6 @@ This site uses a template for creating documentation with [Nextra](https://nextr
 First, run `pnpm i` to install the dependencies.
 
 Then, run `pnpm dev` to start the development server and visit localhost:3000.
+
+### Other college related projects
+https://github.com/stars/jgwyr/lists/college
