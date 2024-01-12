@@ -10,7 +10,7 @@ I made this site to try and gather as many resources for this course as possible
 - [X] find past papers to add to the site
 - [X] menu doesn't update on deployment after pushing (probably a Vercel issue) seems to have fixed itself??
 - [X] find a way to change the <title> tag so it doesn't say "- Nextra" on every page
-- [X] no idea how to add a favicon to this lol
+- [X] add favicon?
 - [ ] COMPLETE RE-ORGANISATION (half-finished)
 - [ ] custom capitalisation to subpages (like "Esp Task 1" -> "ESP Task 1") [changing page title ("#") doesn't change page title in menu]
 - [ ] subfolders?

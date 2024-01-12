@@ -12,10 +12,8 @@
     "title": "The Textbook",
     "type": "page"
   },
-  "contact": {
-    "title": "↗",
-    "type": "page",
-    "href": "https://www.instagram.com/jamesgwyer",
-    "newWindow": true
+  "about": {
+    "title": "About",
+    "type": "page"
   }
 }

@@ -8,7 +8,7 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: 'https://github.com/jgwyr/college-notes',
   footer: {
-    text: '@jamesgwyer / @jgwyr',
+    text: '@jamesgwyer',
   },
   useNextSeoProps() {
     return {
