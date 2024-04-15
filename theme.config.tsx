@@ -4,9 +4,9 @@ import { DocsThemeConfig } from 'nextra-theme-docs'
 const config: DocsThemeConfig = {
   logo: <span>James' College Notes</span>,
   project: {
-    link: 'https://github.com/jgwyr/college-notes',
+    link: 'https://github.com/jamesgwyer/college-notes',
   },
-  docsRepositoryBase: 'https://github.com/jgwyr/college-notes',
+  docsRepositoryBase: 'https://github.com/jamesgwyer/college-notes',
   footer: {
     text: '@jamesgwyer',
   },
