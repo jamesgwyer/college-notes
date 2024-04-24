@@ -1,19 +1,19 @@
 {
   "index": "Home",
+  "course-structure": "Course Structure",
   "work-experience": "Work Experience",
   "past-papers": "Past Papers",
-  "summaries": "Content Summaries",
-  "spec": "Spec (Ctrl C + V)",
+  "core-units": "Core Units",
+  "esp": "Employer Set Project",
+  "osc": "Occupational Specialism",
   "resources": {
     "title": "Resources",
     "type": "page"
   },
-  "textbook": {
-    "title": "The Textbook",
-    "type": "page"
-  },
   "about": {
     "title": "About",
-    "type": "page"
+    "type": "page",
+    "href": "https://jamesgwyer.com",
+    "newWindow": true
   }
 }

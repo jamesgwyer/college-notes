@@ -1,4 +1,4 @@
-> this repo will be archived once I finish college.
+> this repo will be archived once I finish college. You can read more about how I made this site on [jamesgwyer.com](https://jamesgwyer.com/notes/my-college-course.html).
 
 # My college notes for "T-Level Technical Qualification in Digital Production, Design and Development"
 I made this site to try and gather as many resources for this course as possible in one place because the exam board give out little to no helpful resources.
@@ -8,12 +8,10 @@ I made this site to try and gather as many resources for this course as possible
 ### To-do list
 - [X] add pages for "Occupational specialism" section (the 67 hour exam)
 - [X] find past papers to add to the site
-- [X] menu doesn't update on deployment after pushing (probably a Vercel issue) seems to have fixed itself??
+- [ ] menu doesn't update on deployment after pushing (probably a Vercel issue)
 - [X] find a way to change the <title> tag so it doesn't say "- Nextra" on every page
 - [X] add favicon?
-- [ ] COMPLETE RE-ORGANISATION (half-finished)
-- [ ] custom capitalisation to subpages (like "Esp Task 1" -> "ESP Task 1") [changing page title ("#") doesn't change page title in menu]
-- [ ] subfolders?
+- [X] COMPLETE RE-ORGANISATION
 
 ### Forking this project
 This site uses a template for creating documentation with [Nextra](https://nextra.site). So, instead of forking this repo, you can click the "Use this template" option on [shuding/nextra-docs-template](https://github.com/shuding/nextra-docs-template) to create your own website with the theme.
@@ -22,6 +20,3 @@ This site uses a template for creating documentation with [Nextra](https://nextr
 First, run `pnpm i` to install the dependencies.
 
 Then, run `pnpm dev` to start the development server and visit localhost:3000.
-
-### Other college related projects
-https://github.com/stars/jamesgwyer/lists/college
